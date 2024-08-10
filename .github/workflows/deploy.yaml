@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - mine
     paths-ignore:
       - '**.md'
   repository_dispatch:
